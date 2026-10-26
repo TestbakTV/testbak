@@ -1,0 +1,22 @@
+# Apps die tv-debloat.ps1 verwijdert (en tv-restore.ps1 terugzet).
+# Eén app per regel. Alles achter # is uitleg. Zet een # vóór een regel om die app te laten staan.
+# Getest op een TCL Google TV (Android 14). Andere merken hebben andere namen: draai eerst tv-scan.ps1 en kijk in packages_all.txt.
+
+# --- TCL reclame, aanbevelingen en promo ---
+com.tcl.channelplus            # TCL Channel: reclame en gratis reclamezenders
+com.tcl.waterfall.overseas     # TCL-aanbevelingsfeed op het startscherm
+com.tcl.messagebox             # TCL-pushberichten en promo's
+com.tcl.exhibit                # winkel-demomodus
+com.tcl.esticker               # winkel-stickers en promo-overlay
+com.tcl.usercenter             # TCL-account
+com.tcl.logkit                 # logverzameling / telemetrie
+com.tcl.ocean.instructions     # handleiding op de tv
+com.tcl.repairguide            # reparatiehandleiding
+tv.mopa.ginga                  # Braziliaanse interactieve-tv-software (niet nodig in NL)
+com.google.android.feedback    # Google-feedbackapp
+
+# --- Optioneel: alleen als je ze niet gebruikt ---
+tv.wuaki.apptv                 # Rakuten TV
+com.tcl.smartalexa             # Alexa-koppeling
+com.tcl.magiconnectfree        # T-Cast (beeld van je telefoon naar de tv)
+com.tcl.hearaid                # gehoorhulp
